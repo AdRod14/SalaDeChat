@@ -3,6 +3,11 @@
 
 ![Proyecto en acción](https://benisnous.com/wp-content/uploads/2021/07/Python-Socket-Programming-Tutorial.jpg) <!-- Puedes agregar una imagen o un GIF de tu proyecto aquí -->
 
+- [Instrucciones de Uso](#installation)
+- [Ejecutar Cliente](#EjecutarCliente)
+- [ Ejecutar Servidor]( EjecutarServidor)
+- [Licencia](#Licencia)
+
 ## Descripción General del Proyecto
 
 La idea central de este proyecto es desarrollar una sala de chat que se inspira en las prácticas de la Unidad III de la clase de Sistemas Operativos: IPC (Comunicación Entre Procesos). El objetivo es aplicar los conocimientos adquiridos en el curso para crear una sala de chat que permita la comunicación simultánea entre dos o más usuarios.
@@ -31,6 +36,12 @@ Los sockets desempeñan un papel fundamental en la comunicación de red y la int
 ## Instrucciones de Uso
 
 ### Crear entorno virtual
+
+## Instalar venv
+```
+sudo apt install python3-venv
+```
+
 Para la instalación se necesita Python > 3.10.12 . Primeramente se crea un entorno virtual dentro del directorio raíz del proyecto.
 
 GNU/Linux o MacOS:
