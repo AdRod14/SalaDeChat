@@ -3,8 +3,9 @@
 
 ![Proyecto en acción](https://benisnous.com/wp-content/uploads/2021/07/Python-Socket-Programming-Tutorial.jpg) <!-- Puedes agregar una imagen o un GIF de tu proyecto aquí -->
 
+## Contenido
 - [Instrucciones de Uso](#Instalación)
-- [Ejecutar Cliente](#liente)
+- [Ejecutar Cliente](#Cliente)
 - [Ejecutar Servidor]( #Servidor)
 - [Licencia](#Licencia)
 
