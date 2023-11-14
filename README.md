@@ -30,6 +30,34 @@ Los sockets desempeñan un papel fundamental en la comunicación de red y la int
 
 ## Instrucciones de Uso
 
+### Crear entorno virtual
+Para la instalación se necesita Python 3.11.x. Primeramente se crea un entorno virtual dentro del directorio raíz del proyecto.
+
+GNU/Linux o MacOS:
+```
+$ python3 -m venv venv
+$ source ./venv/bin/activate
+```
+
+Luego, se instalan las dependencias usando pip.
+
+GNU/Linux o MacOS:
+```
+$ (venv) python3 -m pip install -r requirements.txt
+```
+```
+### Desactivar el entorno virtual
+
+Para desactivar el entorno virtual, ejecuta el siguiente comando:
+
+GNU/Linux o MacOS:
+```
+$ (venv) deactivate
+```
+## Ejecutar Cliente
+
+
+## Ejecutar Servidor
 
 
 ## Contribuciones
