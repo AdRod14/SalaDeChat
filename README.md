@@ -66,6 +66,10 @@ Si deseas contribuir a este proyecto, ¡estamos abiertos a colaboraciones! Puede
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+Este proyecto está bajo la Licencia MIT, lo que significa que es de código abierto y puedes utilizarlo, modificarlo y distribuirlo libremente. A continuación, se proporciona un resumen de los términos de la Licencia MIT:
+
+### MIT License
+
+
 
 
