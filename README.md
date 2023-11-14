@@ -3,9 +3,9 @@
 
 ![Proyecto en acción](https://benisnous.com/wp-content/uploads/2021/07/Python-Socket-Programming-Tutorial.jpg) <!-- Puedes agregar una imagen o un GIF de tu proyecto aquí -->
 
-- [Instrucciones de Uso](#Instrucciones de Uso)
-- [Ejecutar Cliente](#Ejecutar Cliente)
-- [ Ejecutar Servidor]( Ejecutar Servidor)
+- [Instrucciones de Uso](#Instalación)
+- [Ejecutar Cliente](#liente)
+- [Ejecutar Servidor]( #Servidor)
 - [Licencia](#Licencia)
 
 ## Descripción General del Proyecto
@@ -33,11 +33,11 @@ Los sockets desempeñan un papel fundamental en la comunicación de red y la int
 - Módulo Socket y Módulo Thread: Utilizados para crear y gestionar conexiones de red y trabajar con subprocesos.
 - Diccionario de Clientes: Estructura de datos utilizada para almacenar y gestionar clientes conectados al servidor.
 
-## Instrucciones de Uso
+## Instalación
 
 ### Crear entorno virtual
 
-## Instalar venv
+#### Instalar venv
 ```
 sudo apt install python3-venv
 ```
@@ -57,7 +57,7 @@ GNU/Linux o MacOS:
 $ python3 -m pip install -r requirements.txt
 ```
 
-### Desactivar el entorno virtual
+#### Desactivar el entorno virtual
 
 Para desactivar el entorno virtual, ejecuta el siguiente comando:
 
@@ -65,10 +65,10 @@ GNU/Linux o MacOS:
 ```
 $ deactivate
 ```
-## Ejecutar Cliente
+### Cliente
 
 
-## Ejecutar Servidor
+### Servidor
 
 
 ## Contribuciones
