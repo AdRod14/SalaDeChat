@@ -31,7 +31,7 @@ Los sockets desempeñan un papel fundamental en la comunicación de red y la int
 ## Instrucciones de Uso
 
 ### Crear entorno virtual
-Para la instalación se necesita Python 3.11.x. Primeramente se crea un entorno virtual dentro del directorio raíz del proyecto.
+Para la instalación se necesita Python > 3.10.12 . Primeramente se crea un entorno virtual dentro del directorio raíz del proyecto.
 
 GNU/Linux o MacOS:
 ```
