@@ -45,7 +45,7 @@ GNU/Linux o MacOS:
 ```
 $ (venv) python3 -m pip install -r requirements.txt
 ```
-```
+
 ### Desactivar el entorno virtual
 
 Para desactivar el entorno virtual, ejecuta el siguiente comando:
