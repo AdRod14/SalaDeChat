@@ -1,7 +1,7 @@
 
 # Sala de Chat - Proyecto de Comunicación entre Procesos
 
-![Proyecto en acción](https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png) <!-- Puedes agregar una imagen o un GIF de tu proyecto aquí -->
+![Proyecto en acción](https://benisnous.com/wp-content/uploads/2021/07/Python-Socket-Programming-Tutorial.jpg) <!-- Puedes agregar una imagen o un GIF de tu proyecto aquí -->
 
 ## Descripción General del Proyecto
 
