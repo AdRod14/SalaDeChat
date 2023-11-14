@@ -32,7 +32,7 @@ Los sockets desempeñan un papel fundamental en la comunicación de red y la int
 
 - Python 3.10.12: Lenguaje de programación de alto nivel con sintaxis sencilla y legible.
 - TCP Sockets: Mecanismo de comunicación que permite la comunicación entre procesos a través de la red.
-- Módulo Socket y Módulo Thread: Utilizados para crear y gestionar conexiones de red y trabajar con subprocesos.
+- Módulo Socket y Módulo Threading: Utilizados para crear y gestionar conexiones de red y trabajar con subprocesos.
 - Diccionario de Clientes: Estructura de datos utilizada para almacenar y gestionar clientes conectados al servidor.
 
 ## Instalación
