@@ -69,12 +69,14 @@ $ deactivate
 ```
 
 ### Servidor
+
 ```
 $ python3 -m server.py 127.0.0.2 80881
 ```
 
 
 ### Cliente
+
 ```
 $ python3 -m client.py 127.0.0.2 80881
 ```
