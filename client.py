@@ -10,24 +10,25 @@ def receive():
             message = client.recv(2048).decode('ascii')
             if message.startswith("Ingresa tu nombre de usuario: "):
                 client.send(apodo.encode('ascii'))
+            elif message.startswith("Has salido del chat."):
+                client.close()
+                break
             else:
                 print(message)
         except:
-            print("Ha ocurrido un error!")
+            print("Ha ocurrido un error.")
             client.close()
             break
 
 
 def write():
     while True:
-        message = sys.stdin.readline()
-        if message == "/exit":
-            print("Vuelve pronto")
-            client.close()
-            sys.exit()
+        message = sys.stdin.readline().strip()
         client.send(message.encode('ascii'))
+        if message == "/end":
+            break
         sys.stdout.write("<You>")
-        sys.stdout.write(message)
+        sys.stdout.write(message + "\n")
         sys.stdout.flush()
 
 

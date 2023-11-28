@@ -2,6 +2,13 @@ import socket
 import select
 import sys
 import threading
+import signal
+
+
+def signal_handler(sig, frame):
+    print('\n Received signal {}, shutting down...'.format(sig))
+    server.close()
+    sys.exit(0)
 
 
 def clientthread(conn):
@@ -9,6 +16,13 @@ def clientthread(conn):
     while True:
         try:
             message = conn.recv(2048).decode('ascii')
+            if message.startswith("/end"):
+                conn.send("Has salido del chat.".encode('ascii'))
+                conn.close()
+                print(f"{dictionary_of_clients[conn]} ha salido del servidor.")
+                broadcast(f"{dictionary_of_clients[conn]} ha salido del servidor.".encode('ascii'), dictionary_of_clients[conn])
+                remove(conn)
+                break
             print("<" + dictionary_of_clients[conn] + "> " + message)
             message_to_send = "<" + dictionary_of_clients[conn] + "> " + message
             broadcast(message_to_send.encode('ascii'), dictionary_of_clients[conn])
@@ -42,6 +56,7 @@ def receive():
         threading.Thread(target=clientthread, args=(conn,)).start()
 
 
+signal.signal(signal.SIGINT, signal_handler)
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 dictionary_of_clients = {}
