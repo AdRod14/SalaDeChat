@@ -48,15 +48,15 @@ Para la instalación se necesita Python > 3.10.12 . Primeramente se crea un ento
 
 GNU/Linux o MacOS:
 ```
-$ python3 -m venv venv
-$ source ./venv/bin/activate
+python3 -m venv venv
+source ./venv/bin/activate
 ```
 
 Luego, se instalan las dependencias usando pip desde (venv).
 
 GNU/Linux o MacOS:
 ```
-$ python3 -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 #### Desactivar el entorno virtual
@@ -65,20 +65,20 @@ Para desactivar el entorno virtual, ejecuta el siguiente comando:
 
 GNU/Linux o MacOS:
 ```
-$ deactivate
+deactivate
 ```
 
 ### Servidor
 
 ```
-$ python3 -m server.py 127.0.0.2 8081
+python3 -m server.py 127.0.0.2 8081
 ```
 
 
 ### Cliente
 
 ```
-$ python3 -m client.py 127.0.0.2 8081
+python3 -m client.py 127.0.0.2 8081
 ```
 
 
