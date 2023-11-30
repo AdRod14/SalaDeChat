@@ -25,7 +25,7 @@ def write():
     while True:
         message = sys.stdin.readline().strip()
         client.send(message.encode('ascii'))
-        if message == "/end":
+        if message == "/end" or "":
             break
         sys.stdout.write("<You>")
         sys.stdout.write(message + "\n")

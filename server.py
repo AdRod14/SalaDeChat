@@ -23,6 +23,12 @@ def clientthread(conn):
                 broadcast(f"{dictionary_of_clients[conn]} ha salido del servidor.".encode('ascii'), dictionary_of_clients[conn])
                 remove(conn)
                 break
+            if not message:
+                print(f"{dictionary_of_clients[conn]} ha salido del servidor.")
+                broadcast(f"{dictionary_of_clients[conn]} ha salido del servidor.".encode('ascii'),dictionary_of_clients[conn])
+                conn.close()
+                remove(conn)
+                break
             print("<" + dictionary_of_clients[conn] + "> " + message)
             message_to_send = "<" + dictionary_of_clients[conn] + "> " + message
             broadcast(message_to_send.encode('ascii'), dictionary_of_clients[conn])
